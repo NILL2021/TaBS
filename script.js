@@ -56,12 +56,6 @@ var rands = ['print "Hello there (woo woo)"', 'print "Wazzup Beijing"', 'print "
                                         print(args[arg]);
                                     }
                                 }
-                                else if (argsCount > argsExpected) {
-                                        print("Too many arguments! Expected " + argsExpected + " for " argsFor + ".")       
-                                }
-                                else if (argsCount < argsExpected) {
-                                        print("Not Enough Arguments! Expected " + argsExpected + " for " argsFor + ".")       
-                                }
                                 argsCount = 0
                                 awaitingArgs = false;
                                 args = [];
