@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="header">TaBS</div>
+        <h1 class="title"><br>Welcome to TaBS!</h1>
+        <p>TaBS stands for Text Based Scratch (we don't talk about the "a"). It uses JavaScript to implement a simplistic language with each line being an "Instruction Block". Originally, the plan was to make it compile to .sb3, but I decided not to, since the main reason I created this was to make more complex projects without having to learn a mainstream language like JavaScript, and instead use one inspired by scratch.<br><br>This is very unfinished. Contribute on <a href="https://github.com/NILL2021/TaBS">github</a>.</p>
+        <br>
+        <a href="https://github.com/NILL2021/TaBS/blob/main/README.md" class="help">Help</a><br>
+        <br>
+        <textarea name="editor" id="editor" rows="10" cols="80">
+            print
+        </textarea>
+        <br>
+        <button id="clear">Clear Output</button>
+        <button id="rand">Random script</button>
+        <button id="runner">Run</button>
+        <div id="output" class="output">
+            OUTPUT<br>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
