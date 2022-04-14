@@ -15,7 +15,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 50px;
-
+    padding: 5px;
 }
 button {
     background-color: #d9b422;
@@ -112,4 +112,29 @@ button {
     width:20%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.hbutton {
+    background-color: #1e79ba;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:20%;
+    border-radius: 3px;
+}
+
+.titleh {
+    background-color: #2e96e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 100px;
+}
+.man {
+    position: absolute;
+    left:22%;
+    top: 16%;
 }
