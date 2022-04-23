@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
     display: block;
     position: fixed;
@@ -17,6 +18,7 @@
     line-height: 50px;
     padding: 5px;
 }
+
 button {
     background-color: #d9b422;
     color: white;
@@ -24,9 +26,10 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width:20%;
+    width: 20%;
     border-radius: 3px;
 }
+
 .output {
     font-family: monospace;
     display: block;
@@ -48,9 +51,10 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width:20%;
+    width: 20%;
     border-radius: 3px;
 }
+
 .editor {
     display: block;
     resize: none;
@@ -64,6 +68,7 @@ button {
     outline-style: none;
     height: 400px;
 }
+
 .canvas {
     outline-width: 6px;
     outline-color: gray;
@@ -74,6 +79,7 @@ button {
     height: 405px;
     background-color: #ffffff;
 }
+
 .editor {
     display: block;
     resize: none;
@@ -88,6 +94,7 @@ button {
     height: 400px;
     top: 48%;
 }
+
 .spr {
     display: block;
     resize: none;
@@ -109,7 +116,7 @@ button {
     padding: 14px 20px;
     border: none;
     cursor: pointer;
-    width:20%;
+    width: 20%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -121,7 +128,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width:20%;
+    width: 20%;
     border-radius: 3px;
 }
 
@@ -133,8 +140,9 @@ button {
     border-radius: 3px;
     height: 100px;
 }
+
 .man {
     position: absolute;
-    left:22%;
+    left: 22%;
     top: 16%;
 }

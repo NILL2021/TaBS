@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    background-color: #2e96e6;
+    color: white;
+    font-weight: bold;
+    height: 45pt;
+    padding: 4pt;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+button {
+    background-color: #d9b422;
+    color: white;
+    padding: 14pt 20pt;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 3pt;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center-btn {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.output {
+    font-family: monospace;
+    display: block;
+    left: 50%;
+    background-color: #47494a;
+    text-align: center;
+    color: white;
+    width: 50%;
+    border-radius: 20pt;
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 50pt;
+}
+
+.help {
+    background-color: #d9b422;
+    color: white;
+    padding: 14pt 20pt;
+    margin: 8pt 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 3pt;
+}
+
+.editor {
+    display: block;
+    resize: none;
+    font-family: monospace;
+    color: rgb(72, 157, 72);
+    background-color: #47494a;
+    border-radius: 3pt;
+    width: 50%;
+    left: 50%;
+    font-size: 22pt;
+    outline-style: none;
+    height: 400pt;
+}
+
+.canvas {
+    outline-width: 6pt;
+    outline-color: gray;
+    position: absolute;
+    left: 51%;
+    top: 48%;
+    width: 47%;
+    height: 405pt;
+    background-color: #ffffff;
+}
+
+.editor {
+    display: block;
+    resize: none;
+    font-family: monospace;
+    color: rgb(72, 157, 72);
+    background-color: #47494a;
+    border-radius: 3pt;
+    width: 50%;
+    left: 50%;
+    font-size: 22pt;
+    outline-style: none;
+    height: 400pt;
+    top: 48%;
+}
+
+.spr {
+    display: block;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #9d9d9d;
+    border-radius: 3pt;
+    width: 50%;
+    left: 50%;
+    font-size: 22pt;
+    outline-style: double;
+    height: 400pt;
+    padding-left: 2pt;
+}
+
+.tab {
+    background-color: #989898;
+    color: white;
+    padding: 14pt 20pt;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-top-left-radius: 20pt;
+    border-top-right-radius: 20pt;
+}
+
+.hbutton {
+    background-color: #1e79ba;
+    color: white;
+    padding: 14pt 20pt;
+    margin: 8pt 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 3pt;
+}
+
+.titleh {
+    background-color: #2e96e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3pt;
+    height: 100pt;
+}
+
+.man {
+    position: absolute;
+    left: 22%;
+    top: 16%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    box-shadow: #47494a;
+}
+
+.desc {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #989898;
+    border-radius: 10pt;
+    color: white;
+    margin-top: 5pt;
+    padding: 7px;
+}
