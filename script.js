@@ -46,7 +46,7 @@ var rands = ['print "Hello there (woo woo)"', 'print "Wazzup Beijing"', 'print "
         }
         function print(what) {
             console.log(what);
-            document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + what + "<br>";
+            document.getElementById("output").innerText = document.getElementById("output").innerText + what + "\n";
         }
         function parse(what) {
             var awaitingArgs = false;
